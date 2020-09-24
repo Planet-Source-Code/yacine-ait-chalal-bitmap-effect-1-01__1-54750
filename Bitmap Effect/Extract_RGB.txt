@@ -1,0 +1,10 @@
+		Yayou-Soft®
+
+  ' Extraction of the color 
+
+   R = SrcColor Mod 256
+   G = (SrcColor \ 256) Mod 256
+   B = (SrcColor \ 256) \ 256
+
+   Color = rgb (r ,G ,B)
+
